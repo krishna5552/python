@@ -1,0 +1,67 @@
+Variables:
+
+    Variables are used to store and manipulate data in Python.
+    
+    A variable is essentially a named location in the computer's memory where data is stored.
+    
+    It allows us to assign values to names and use those names to refer to the stored values later in the
+    program.
+
+Data Types:
+
+    Python has several built-in data types, which define the kind of data that a variable can store.
+    
+    The common data types in Python include:
+    
+        Numeric types:
+
+            Integer (int): Represents whole numbers without decimal points.
+
+            Floating-Point (float): Represents real numbers with decimal points.
+
+        Text type:
+
+            String (str): Represents a sequence of characters, enclosed in single or double quotes.
+
+        Sequence types:
+
+            List (list): Represents an ordered collection of items, enclosed in square brackets and separated
+            by commas.
+
+            Tuple (tuple): Represents an ordered, immutable collection of items, enclosed in parentheses and 
+            separated by commas.
+
+        Mapping type:
+
+            Dictionary (dict): Represents a collection of key-value pairs, enclosed in curly braces.
+                               Each key is unique and associated with a value.
+
+        Boolean type:
+
+            Boolean (bool): Represents the truth values True and False.
+
+        Other types:
+
+            NoneType (None): Represents the absence of a value.
+
+
+Type Conversion:
+
+    Type conversion, also known as typecasting, refers to the process of converting the data from one data
+    type to another.
+    
+    Python provides built-in functions that allow you to perform type conversion as needed.
+    
+    Here are some common type conversion functions:
+
+        int(): Converts a value to an integer type.
+        float(): Converts a value to a floating-point type.
+        str(): Converts a value to a string type.
+        list(): Converts a sequence to a list type.
+        tuple(): Converts a sequence to a tuple type.
+        dict(): Converts a sequence of key-value pairs to a dictionary type.
+
+It's important to note that not all types can be converted to each other directly.
+For example, converting a string that doesn't represent a valid integer to an integer will result in a
+ValueError.
+So, it's necessary to handle type conversion carefully and consider data validity.
